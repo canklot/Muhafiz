@@ -2,7 +2,7 @@
 Python easy to use password storage
 
 
-The password is expanded to two 256 bit keys using PBKDF2 with a 256 bit random salt (increased from 128 bits in release 3.0.0), SHA256, and 100,000 iterations (increased from 10,000 in release 4.0.0).
+The password is expanded to two 256 bit keys using PBKDF2 with a 256 bit random salt , SHA256, and 100,000 iterations 
 
 AES256 CTR mode is used to encrypt the data with one key. The first 64 bits of the salt are used as a message nonce (of half the block size); the incremental part of the counter uses the remaining 64 bits (see section B.2 of http://csrc.nist.gov/publications/nistpubs/800-38a/sp800-38a.pdf).
 
