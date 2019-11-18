@@ -1,6 +1,12 @@
 # Muhafiz
 Python easy to use password storage
 
+#Usage
+Just run the code with: python muhafiz.py
+It will ask for opeating mode s fro stote, d decrypt
+Then will ask for credentials
+In the end encrypted data will be stored in a file named "kasa" and decrypted data will be printed to the screen
+
 
 The password is expanded to two 256 bit keys using PBKDF2 with a 256 bit random salt , SHA256, and 100,000 iterations 
 
