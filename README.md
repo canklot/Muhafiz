@@ -19,7 +19,7 @@ Site names and usernames stored as hashed with sha256 without salt
 # Usage
 Just run the code with: `python muhafiz.py`
 
-It will ask you for which mode you want to use it. Choose `s` for storage , `d` for decrypt mode
+It will ask you for which mode you want to use it. Choose `s` for storage , `d` for decryption mode
 
 Then it will ask about `website`, `e-mail` and `masterpassword`
 
