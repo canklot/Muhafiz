@@ -14,7 +14,7 @@ The final password consists of the header, salt, encrypted data, and HMAC, conca
 
 On decryption, the header is checked and the HMAC validated before decryption.
 
-Site names and usernames are stored as hashed with sha256 (without salt)
+Site names and usernames are stored as just hashed with sha256 (without salt)
 
 
 # Usage
