@@ -20,9 +20,9 @@ Site names and usernames are stored as just hashed with sha256 (without salt)
 # Usage
 Just run the code with: `python muhafiz.py`
 
-It will ask you for which mode you want to use it. Choose `s` for storage , `d` for decryption mode
+The program will ask you about which mode you want to use it. Choose `s` for storage , `d` for decryption mode
 
-Then the program will ask you about `website`, `e-mail` and `masterpassword`
+Then the program will ask you about your login credentials `website`, `e-mail` and `masterpassword`
 
 After credentials have submitted the encrypted data will be saved in a file named `kasa` in the same folder.
 
